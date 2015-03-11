@@ -1,4 +1,5 @@
 #Find the longest word in a string and return the length, WITHOUT using .split()
+#Sentence only contains letters and blanks
 
 def long(sentence):
     alist = []
