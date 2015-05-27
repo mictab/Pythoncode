@@ -46,7 +46,7 @@ def getPosts():
 
 def thankYou(wallposts):
 	for wallpost in wallposts:
-			if any(wallpost['message'].strip(" ")) in commonGreetingsSwe:
+			if any(wallpost['message'].strip(" ") in commonGreetingsSwe):
 				requestFB = requests.get('https://graph.facebook.com/%s' % (wallpost['actor_id']))
 				urlforThanks = 'https://graph.facebook.com/%s/comments' % (wallpost['post_id'])
 				user = json.loads(requestFB.text)
