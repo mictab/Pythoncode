@@ -19,7 +19,7 @@ utc_bday = int((td.microseconds + (td.seconds + td.days * 24 * 3600) * 10**6) / 
 
 
 # set your fb access token
-fbAccessToken = 'CAACEdEose0cBAP23q4TIFBpvjRSZAa8mvYB1WY2KtbgzVxEnae73ZAiPIWZAw7o2hWZAFvBZBOLyZCpztzvImML2R36eZCqvUAPnOY4DVZCvZCc2JnXIYbHrbZABZC8690Jx5LK8K9FW3RA4m3rBRNUThKUnLKFF6A5OZBHbC9xqJCaQZBR10ywiwXmXdn1b7WIWZCq1i8EHatPNGriDceAOQWdWrEkPSbB3XL0vJMV7daU5gHiwZDZD'
+fbAccessToken'
 
 # list for 'thanks' in Swedish
 thanksSwe = ['Tack så mycket! ', 'Tack!']
