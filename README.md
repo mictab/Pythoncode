@@ -1,2 +1,2 @@
 # Pythoncode
-just some python code
+Just some random Python code.
